@@ -1,0 +1,19 @@
+::-webkit-scrollbar {
+  width: 4px;
+  height: 5.5px;
+}
+/* Only FireFox */
+html {scrollbar-color: rgb(180,180,180) transparent;}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(180,180,180);
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+  border-radius: 12px;
+}
